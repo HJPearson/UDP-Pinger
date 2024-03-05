@@ -3,7 +3,7 @@ Two simple programs: one for sending UDP pings to a server, and one that will ru
 
 server.cpp will create a socket bound to the specific IPv4/port and respond to any pings it receives. <br>
 
-client.cpp will send a ping to the specific IPv4/port, receive the reponse ping, and output the round trip time. <br>
+client.cpp will send a ping to the specific IPv4/port, receive the response ping, and output the round trip time. <br>
 
 Server usage: ./server IPv4 Port <br>
 Example: ./server 127.0.0.1 8888 <br>
